@@ -2,41 +2,27 @@ PIP (Python Package Installer) is a tool used to install and manage Python packa
 It simplifies the process of downloading and installing libraries or modules required for Python projects. 
 This guide explains how to install PIP on a Windows system and verify the installation.
 
-How to Install PIP on Windows – Simplified Steps
+How to Install PIP on Windows – Simple Steps
 Step 1: Check if PIP is Already Installed
-Open the Command Prompt.
+Open Command Prompt.
 Type pip --version and press Enter.
-If you see a version number, PIP is already installed.
-If not, proceed to the next step.
-
-Step 2: Download the PIP Installation Script
-Open your web browser.
-Go to the following link:
-https://bootstrap.pypa.io/get-pip.py
-Download the file and save it in a folder (e.g., Downloads).
-
-Step 3: Install PIP Using the Script
-Open the Command Prompt.
-Navigate to the folder where the get-pip.py file is saved.
-For example, if the file is in the Downloads folder:
-Type cd Downloads and press Enter.
-Run the script to install PIP by typing:
-python get-pip.py and press Enter.
-
-Step 4: Verify the Installation
-After the installation completes, check if PIP is installed:
-Open the Command Prompt (if not already open).
+If it shows a version number, PIP is already installed. If not, go to the next step.
+Step 2: Download the PIP Installer
+Open a web browser.
+Go to https://bootstrap.pypa.io/get-pip.py.
+Download the file and save it (e.g., in your Downloads folder).
+Step 3: Install PIP
+Open Command Prompt.
+Go to the folder where you saved the file.
+For example, if it's in Downloads, type:
+cd Downloads
+Run the file by typing:
+python get-pip.py
+Step 4: Verify PIP Installation
+Open Command Prompt.
 Type pip --version and press Enter.
-If installed successfully, it will display the PIP version number.
+If you see a version number, PIP is installed successfully.
 
-Step 5: (Optional) Add PIP to PATH
-If the system says "PIP is not recognized," you need to add PIP to the PATH environment variable:
-
-Locate the Python installation folder (e.g., C:\Python312).
-Inside it, find the Scripts folder (e.g., C:\Python312\Scripts).
-Add this folder to your system PATH:
-Go to Control Panel → System → Advanced system settings → Environment Variables.
-Edit the Path variable and add the Scripts folder path.
 
 Now PIP is ready to use! You can install Python packages like this:
 
